@@ -1,0 +1,217 @@
+/*
+https://encycolorpedia.pt/78866b
+*/
+
+#top-header {
+    background: #78866b;
+}
+#top-header a {
+    font-size: 14px;
+    color: #2a2d26;
+}
+#top-header a:hover { text-decoration: none; }
+
+#top-header a.btn {
+    background: #2a2d26;
+}
+
+header#page-header { min-height: 120px; }
+
+nav#page-nav {
+    width: 100%;
+    display: flex;
+    background: #2a2e25;
+}
+
+nav#page-nav ul.nav {
+    justify-content: space-between;
+}
+nav#page-nav ul.nav li.nav-item {
+
+}
+
+nav#page-nav ul.nav li a.nav-link {
+    min-height: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+}
+
+nav#page-nav ul.nav li a.nav-link.outlet {
+    font-weight: 600;
+    color: #daa520;
+    background: #353830;
+}
+
+#page-slider {
+    width: 100%;
+    background: #dddddd;
+}
+
+#bottom-slider { background: #cccccc; }
+
+#bottom-slider h5 {
+    color: #444444;
+    text-align: center;
+    font-size: 17px;
+    margin: 0;
+    line-height: 35px;
+}
+
+/* Home */
+#produtos-em-destaque { margin-top: 60px; }
+#produtos-em-destaque h2 {
+    font-size: 24px;
+    color: #2a2d26;
+    margin-bottom: 40px;
+}
+
+#produtos-em-destaque .product a {text-decoration: none;}
+
+#produtos-em-destaque .product .image {
+    width: 100%;
+    overflow: hidden;
+}
+
+#produtos-em-destaque .product h5.card-title {
+    font-size: 20px;
+    text-align: center;
+    color: #181a17;
+}
+
+#produtos-em-destaque .product h3.product-price {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    color: #776a87;
+}
+
+/* Página do Produto */
+#section-produto { margin-top: 30px; }
+#section-produto .breadcrumb {
+    background: #e7eae5;
+    margin-bottom: 40px;
+}
+#section-produto .breadcrumb .breadcrumb-item a {color: #666666}
+#section-produto .breadcrumb .breadcrumb-item.active {
+    font-weight: 600;
+    color: #3c4236;
+}
+
+#section-produto .product-details { text-align: center; }
+#section-produto .product-details h1 {
+    font-size: 34px;
+    color: #3c4236;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#section-produto .product-details h3.product-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #776a87;
+    margin-bottom: 25px;
+}
+
+#section-produto .descricao {
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 14px;
+    color: #444444;
+}
+
+#section-produto .descricao h4 {
+    font-size: 26px;
+    color: #3c4236;
+    margin-bottom: 15px;
+}
+
+
+/* Carrinho de Compras */
+
+#carrinho { margin: 50px auto 120px auto; }
+#carrinho h2 {
+    font-size: 27px;
+    color: #2a2d26;
+    margin-bottom: 40px;
+}
+
+#carrinho .carrinho-vazio {text-align: center}
+#carrinho .carrinho-vazio .btn {margin-top: 20px}
+
+#carrinho h3.titulo-produto {
+    font-size: 21px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 25px;
+}
+
+#carrinho .col-md-6 { text-align: center; }
+
+#carrinho .col-md-6 a.btn { margin-top: 25px; }
+
+#carrinho .quantidade {
+    width: 130px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+#carrinho .quantidade a.btn {
+    float: left;
+    margin: 0;
+    width: 30px;
+    color: #fff;
+}
+#carrinho .quantidade input {
+    width: 60px;
+    height: 31px;
+    float: left;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #444444;
+    border-radius: .2rem;
+    border: 1px solid #dddddd;
+}
+
+#carrinho .valor-unitario {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 10px;
+}
+#carrinho .sub-total {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    color: #444444;
+}
+
+#carrinho .total {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 26px;
+    color: #555555;
+}
+
+#carrinho .finalizar-compra {
+    float: right;
+    margin-top: 10px
+}
+
+
+footer#page-footer {
+    margin-top: 60px;
+    padding: 50px 0 30px 0;
+    background: #b9c1b2;
+    min-height: 100px;
+}
+
+#bottom-footer {
+    background: #78866b;
+}
+
+

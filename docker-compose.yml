@@ -1,0 +1,41 @@
+version: '2'
+
+volumes:
+  mariadb_data:
+
+services:
+
+  loja:
+    container_name: trabalho_prog_loja
+    build:
+      context: .
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - "8000:80"
+    links:
+      - db
+
+  db:
+    container_name: trabalho_prog_db
+    image: mariadb:latest
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=abcd1234
+      - MYSQL_DATABASE=trabalho
+      - MYSQL_USER=trabalho
+      - MYSQL_PASSWORD=abcd1234
+
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_HOST=db
+      - PMA_ARBITRARY=1
+    ports:
+      - '8080:80'
+    links:
+      - db
